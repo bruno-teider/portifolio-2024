@@ -1,0 +1,64 @@
+@font-face {
+  src: url("../../../public/fonts/BebasNeueRegular.ttf");
+  font-family: "Bebas Neue";
+}
+
+.frame {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  z-index: 2;
+  position: relative;
+}
+
+.frame .option-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  position: relative;
+  height: 100vh;
+
+  padding-right: 5%;
+  font-size: 14vw;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.top-container {
+  width: 100vw;
+  margin-left: 3.25vw;
+}
+
+.frame .top-container .top-text {
+  color: #ffffff;
+  font-family: "A Pompadour Sample-Regular", Helvetica;
+  font-size: 1.5vw;
+  left: 3.5vw;
+  letter-spacing: 1px;
+  position: absolute;
+  top: 1vw;
+}
+
+.top-container hr {
+  margin: 4.75vw 0 0 0;
+  width: 40vw;
+  height: 1px;
+  border: none;
+  background-color: #ffffff;
+  position: absolute;
+}
+
+.frame .top-container .my-name {
+  letter-spacing: 3px;
+  font-family: A Pompadour Display Sample;
+  color: #ffffff;
+  font-size: 3.5vw;
+  left: -3.5vw;
+  position: absolute;
+  top: 13.5vw;
+  transform: rotate(-90deg);
+}
