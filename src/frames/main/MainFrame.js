@@ -28,9 +28,9 @@ const MainFrame = ({ children }) => {
 
           <div className="bottom-options">
             <hr />
-            <h1>Linkedin</h1>
+            <a className="bottom-option-one" href="https://www.linkedin.com/in/bruno-teider/" target="_blank">Linkedin</a>
             <hr className="inner-hr" />
-            <h1>Github</h1>
+            <a className="bottom-option-two" href="https://github.com/bruno-teider" target="_blank">Github</a>
             <hr />
           </div>
         </div>
