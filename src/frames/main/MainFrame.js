@@ -16,18 +16,24 @@ const MainFrame = ({ children }) => {
 
       {/* The main paage */}
       <div className="frame">
-
         <div className="top-container">
           <p className="top-text">Web developer - Programmer - Designer</p>
-          <hr></hr>
+          <hr />
           <div className="my-name">Bruno Teider</div>
         </div>
 
         <div className="option-container">
           <div className="first-option">Projects</div>
           <div className="second-option">About</div>
-        </div>
 
+          <div className="bottom-options">
+            <hr />
+            <h1>Linkedin</h1>
+            <hr className="inner-hr" />
+            <h1>Github</h1>
+            <hr />
+          </div>
+        </div>
       </div>
     </div>
   );
