@@ -13,6 +13,8 @@
   position: relative;
 }
 
+
+/* -- Top container -- */
 .top-container {
   width: 100vw;
   margin-left: 3.25vw;
@@ -48,6 +50,8 @@
   transform: rotate(-90deg);
 }
 
+
+/* -- Options Container --  */
 .frame .option-container {
   display: flex;
   flex-direction: column;
@@ -58,23 +62,45 @@
 
   padding-right: 5%;
   font-size: 14vw;
-  color: #ffffff;
   font-weight: 400;
   font-family: "Bebas Neue", sans-serif;
 }
 
 .option-container .first-option,
-.option-container .second-option{
+.option-container .second-option {
+  position: relative;
+  color: #ffffff;
   height: 30vh;
   line-height: 30vh;
+  transition: color 0.3s ease, padding-right 0.3s ease;
 }
 
 .option-container .first-option:hover,
-.option-container .second-option:hover{
-  font-family: A Pompadour Display Sample;
+.option-container .second-option:hover {
   cursor: pointer;
+  color: #ffffffa2;
+  font-style: italic;
+  position: relative;
 }
 
+.option-container .first-option::after,
+.option-container .second-option::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 40px;
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.3s ease;
+}
+.frame .option-container .first-option:hover::after,
+.frame .option-container .second-option:hover::after {
+  width: 100%;
+}
+
+
+/* -- Bottom Options -- */
 .frame .bottom-options {
   display: inline-flex;
   position: absolute;
@@ -88,28 +114,47 @@
   width: 20vw;
 }
 
-.frame .bottom-options a{
+.frame .bottom-options a {
   color: #ffffff;
   font-family: "A Pompadour Sample-Regular", Helvetica;
   font-size: 1.25vw;
+  position: relative;
   text-decoration: none;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.frame .bottom-options .bottom-option-one{
+.frame .bottom-options a::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 0;
+  height: 2px;
+  background-color: #ffffff;
+  transition: width 0.2s ease;
+}
+
+.frame .bottom-options a:hover::after {
+  width: 100%;
+}
+
+.frame .bottom-options .bottom-option-one {
   width: 5vw;
 }
 
-.frame .bottom-options .bottom-option-two{
+.frame .bottom-options .bottom-option-two {
   width: 4vw;
 }
 
-.frame .bottom-options a:hover{
-  font-family: A Pompadour Display Sample;;
-  letter-spacing: 3px;
+.frame .bottom-options a:hover {
+  color: #b6b6b6;
 }
 
-.frame .bottom-options hr{
+.frame .bottom-options hr {
   flex: 0.25;
   height: 1px;
   border: none;
@@ -117,6 +162,6 @@
   width: 0.5vw;
 }
 
-.frame .bottom-options .inner-hr{
+.frame .bottom-options .inner-hr {
   flex: 0.1;
 }
