@@ -1,22 +1,23 @@
 import { useState } from "react";
 import "./App.css";
 import MainFrame from "./frames/main/MainFrame";
+import ProjectsFrame from "./frames/projects/ProjectsFrame";
 import "./Background.css";
 
 function App() {
   const bubbles = [1, 2, 3, 4, 5];
   const [currentFrame, setCurrentFrame] = useState(0);
 
-  const mainToParent = (frameId) => {
+  const getFrameId = (frameId) => {
     setCurrentFrame(frameId);
   };
 
   const renderFrame = () => {
     switch (currentFrame) {
       case 0:
-        return <MainFrame mainToParent={mainToParent} />;
+        return <MainFrame getFrameId={getFrameId} />;
       case 1:
-        return <h1>Projects</h1>;
+        return <ProjectsFrame getFrameId={getFrameId} />;
       case 2:
         return <h1>About</h1>;
       default:
