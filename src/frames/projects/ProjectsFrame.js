@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import "./ProjectsFrame.css";
 
@@ -35,20 +35,23 @@ const projects = [
 ];
 
 function ProjectInfo({ project, index }) {
-  const ref = useRef(null);
 
   return (
     <section>
+
       <div className="numbers">
-        <motion.h2>{index + 1}</motion.h2>
+        {projects.map((_, projectIndex) => (
+          <motion.h2 className={`number-index ${index === projectIndex ? 'active' : ''}`}>{projectIndex + 1}</motion.h2>
+        ))}
       </div>
+
       <div className="name-and-lines">
         <motion.h2>{project.name}</motion.h2>
-        {projects.map((_, index) => index > 0 && <hr key={index} />)}
+        {projects.map((_, projectIndex) => projectIndex > 0 && <hr key={projectIndex} />)}
       </div>
 
       <div className="project-image">
-        <img src={project.image} alt={index} />
+        <img src={project.image} alt={`Project ${index}`} />
       </div>
     </section>
   );
