@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
+* {
+  scroll-snap-type: y mandatory;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
 .projects-frame {
   display: flex;
   justify-content: flex-end;
@@ -7,15 +17,103 @@
   width: 100%;
   height: 100vh;
   position: relative;
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
 }
 
+/* -- The body --  */
+.project-info {
+  height: 100vh;
+  overflow: auto;
+}
 
-/* The Container to go back */
+section {
+  font-family: "A Pompadour Sample-Regular", Helvetica;
+  font-weight: 200;
+  color: #ffffff;
+
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+
+  position: relative;
+  scroll-snap-align: center;
+  perspective: 500px;
+}
+
+section > div {
+  height: 70vh;
+  margin: 10px;
+}
+
+.numbers {
+  width: 5%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.numbers h2 {
+  font-family: "Lora", serif;
+  font-size: 1.5vw;
+
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 5vh;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-and-lines {
+  width: 20%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.name-and-lines hr {
+  margin-left: 0;
+  width: 3vw;
+  border: none;
+  border-top: 1px solid white;
+}
+
+.name-and-lines h2 {
+  color: #ffffff;
+  font-family: "A Pompadour Sample-Regular", Helvetica;
+  font-size: 2vw;
+  font-weight: 400;
+}
+
+.project-image {
+  width: 95vh;
+  height: 100%; 
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.project-image img {
+  object-fit: contain;
+  width: 100%;
+  height: auto;
+  padding: 16px;
+  border: 1px solid white;
+}
+
+/* -- The Container to go back -- */
 .back-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  position: fixed;
 
   height: 17vh;
   width: 4vw;

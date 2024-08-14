@@ -79,7 +79,6 @@
 .option-container .second-option:hover {
   cursor: pointer;
   color: #ffffffa2;
-  font-style: italic;
   position: relative;
 }
 
