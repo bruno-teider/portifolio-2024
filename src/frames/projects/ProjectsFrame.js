@@ -1,4 +1,3 @@
-import React, { useRef } from "react";
 import { motion } from "framer-motion";
 import "./ProjectsFrame.css";
 
@@ -19,8 +18,7 @@ const projects = [
   },
   {
     name: "Rabbit Hole",
-    image:
-      "https://i.ibb.co/bXt7vLL/Sprite-0003.png",
+    image: "https://i.ibb.co/bXt7vLL/Sprite-0003.png",
   },
   {
     name: "Nicolabs",
@@ -29,25 +27,33 @@ const projects = [
   },
   {
     name: "Plantae",
-    image:
-      "https://i.ibb.co/PY2c9wq/plantae-login.png",
+    image: "https://i.ibb.co/PY2c9wq/plantae-login.png",
   },
 ];
 
+// Each of the projects
 function ProjectInfo({ project, index }) {
-
   return (
     <section>
-
       <div className="numbers">
         {projects.map((_, projectIndex) => (
-          <motion.h2 className={`number-index ${index === projectIndex ? 'active' : ''}`}>{projectIndex + 1}</motion.h2>
+          <div className="number-container" style={{ height: `calc(100% / ${projects.length})` }} >
+            <motion.h2 className={`number-index ${ index === projectIndex ? "active" : ""}`} >
+              {projectIndex + 1}
+            </motion.h2>
+          </div>
         ))}
       </div>
 
       <div className="name-and-lines">
-        <motion.h2>{project.name}</motion.h2>
-        {projects.map((_, projectIndex) => projectIndex > 0 && <hr key={projectIndex} />)}
+        {projects.map((_, projectIndex) => (
+          <div className="name-container" style={{ height: `calc(100% / ${projects.length})` }} >
+            <hr key={projectIndex} className={`hr-index ${index === projectIndex ? "active" : ""}`} />
+            <motion.h2 className={`name-index ${index === projectIndex ? "active" : ""}`} >
+              {project.name}
+            </motion.h2>
+          </div>
+        ))}
       </div>
 
       <div className="project-image">
@@ -60,6 +66,8 @@ function ProjectInfo({ project, index }) {
 const ProjectsFrame = ({ getFrameId }) => {
   return (
     <div className="projects-frame">
+
+      {/* Each Project Section */}
       <div className="project-info">
         {projects.map((project, index) => (
           <ProjectInfo key={index} project={project} index={index} />

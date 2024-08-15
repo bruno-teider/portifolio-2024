@@ -1,8 +1,3 @@
-@font-face {
-  src: url("../../../public/fonts/BebasNeueRegular.ttf");
-  font-family: "Bebas Neue";
-}
-
 .frame {
   display: flex;
   flex-direction: row;
@@ -22,12 +17,13 @@
 
 .frame .top-container .top-text {
   color: #ffffff;
-  font-family: "A Pompadour Sample-Regular", Helvetica;
-  font-size: 1.15vw;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-size: 1.20vw;
   left: 3.5vw;
   letter-spacing: 1px;
   position: absolute;
-  top: 1vw;
+  top: 0.75vw;
 }
 
 .top-container hr {
@@ -41,7 +37,7 @@
 
 .frame .top-container .my-name {
   letter-spacing: 3px;
-  font-family: A Pompadour Display Sample;
+  font-family: "A Pompadour Display Sample";
   color: #ffffff;
   font-size: 2.5vw;
   left: -1.75vw;
@@ -108,14 +104,15 @@
   bottom: 2.5vh;
 
   color: #ffffff;
-  font-family: "A Pompadour Sample-Regular", Helvetica;
+  font-family: "A Pompadour Regular";
   font-size: 0.5vw;
   width: 20vw;
 }
 
 .frame .bottom-options a {
   color: #ffffff;
-  font-family: "A Pompadour Sample-Regular", Helvetica;
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
   font-size: 1.25vw;
   position: relative;
   text-decoration: none;

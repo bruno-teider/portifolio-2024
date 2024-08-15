@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
 
+/* -- Hide the scroll bar -- */
 * {
   scroll-snap-type: y mandatory;
   -ms-overflow-style: none;
@@ -28,7 +29,6 @@
 }
 
 section {
-  font-family: "A Pompadour Sample-Regular", Helvetica;
   font-weight: 200;
   color: #ffffff;
 
@@ -48,23 +48,26 @@ section > div {
   margin: 10px;
 }
 
+/* -- The Numbers Section -- */
 .numbers {
   width: 5vw;
   height: 55vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around; 
-  align-items: center;
+  align-items:end;
 }
 
 .numbers h2 {
   font-family: "Lora", serif;
-  font-size: 1.5vw;
+  font-size: 1.25vw;
 
   border: 1px solid white;
   border-radius: 50%;
   width: 4vh;
   height: 4vh;
+  margin-right: 0.25vw;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -74,8 +77,15 @@ section > div {
   visibility: hidden;
 }
 
+/* -- The Name and lines container -- */
+.number-container, .name-container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
 .name-and-lines {
-  width: 20vw;
+  width: 19vw;
   height: 55vh;
   display: flex;
   flex-direction: column;
@@ -84,23 +94,34 @@ section > div {
 }
 
 .name-and-lines hr {
+  display: none;
   margin-left: 0;
-  width: 3vw;
+  width: 2.5vw;
   border: none;
   border-top: 1px solid white;
 }
 
 .name-and-lines h2 {
   color: #ffffff;
-  font-family: "A Pompadour Sample-Regular", Helvetica;
-  font-size: 2vw;
-  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.75vw;
+  font-weight: 300;
   margin: 0;
   padding: 0;
 }
 
+.name-index:not(.active){
+  visibility: hidden;
+}
+
+.hr-index:not(.active){
+  display: block;
+}
+
+
+/* -- The Image of the projetct -- */
 .project-image {
-  width: 95vh;
+  width: 100vh;
   height: 100%; 
   display: flex;
   align-items: center; 
@@ -109,7 +130,7 @@ section > div {
 
 .project-image img {
   object-fit: contain;
-  width: 100%;
+  width: 85%;
   height: auto;
   padding: 16px;
   border: 1px solid white;

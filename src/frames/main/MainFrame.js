@@ -1,7 +1,9 @@
 import React from "react";
 import "./MainFrame.css";
+import { useEffect } from "react";
 
 const MainFrame = ({ getFrameId }) => {
+
   return (
     <div className="frame">
       {/* The main paage */}
