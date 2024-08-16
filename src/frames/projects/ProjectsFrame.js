@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import { useEffect } from "react";
 import "./ProjectsFrame.css";
 
 const projects = [
@@ -33,8 +34,38 @@ const projects = [
 
 // Each of the projects
 function ProjectInfo({ project, index }) {
+  
+  // Make the elements change when hovered
+  useEffect(() => {
+    const elements = document.querySelectorAll('.numbers h2, .name-and-lines h2, .project-image img, .first-star, .second-star');
+
+    const addHoverClass = () => {
+      elements.forEach(item => item.classList.add('hovered'));
+    };
+
+    const removeHoverClass = () => {
+      elements.forEach(item => item.classList.remove('hovered'));
+    };
+
+    elements.forEach(element => {
+      element.addEventListener('mouseenter', addHoverClass);
+      element.addEventListener('mouseleave', removeHoverClass);
+    });
+
+    return () => {
+      elements.forEach(element => {
+        element.removeEventListener('mouseenter', addHoverClass);
+        element.removeEventListener('mouseleave', removeHoverClass);
+      });
+    };
+  }, []);
+
   return (
     <section>
+
+      <img className="first-star" src="../../assets/star.png" alt="star" />
+      <img className="second-star" src="../../assets/second-star.png" alt="second-star" />
+
       <div className="numbers">
         {projects.map((_, projectIndex) => (
           <div className="number-container" style={{ height: `calc(100% / ${projects.length})` }} >
@@ -59,10 +90,13 @@ function ProjectInfo({ project, index }) {
       <div className="project-image">
         <img src={project.image} alt={`Project ${index}`} />
       </div>
+
     </section>
   );
 }
 
+
+// The page render
 const ProjectsFrame = ({ getFrameId }) => {
   return (
     <div className="projects-frame">

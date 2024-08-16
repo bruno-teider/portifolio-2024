@@ -54,8 +54,8 @@ section > div {
   height: 55vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-around; 
-  align-items:end;
+  justify-content: space-around;
+  align-items: end;
 }
 
 .numbers h2 {
@@ -78,7 +78,8 @@ section > div {
 }
 
 /* -- The Name and lines container -- */
-.number-container, .name-container {
+.number-container,
+.name-container {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -91,6 +92,7 @@ section > div {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
+  padding: 1vw;
 }
 
 .name-and-lines hr {
@@ -110,22 +112,21 @@ section > div {
   padding: 0;
 }
 
-.name-index:not(.active){
+.name-index:not(.active) {
   visibility: hidden;
 }
 
-.hr-index:not(.active){
+.hr-index:not(.active) {
   display: block;
 }
-
 
 /* -- The Image of the projetct -- */
 .project-image {
   width: 100vh;
-  height: 100%; 
+  height: 100%;
   display: flex;
-  align-items: center; 
-  justify-content: center; 
+  align-items: center;
+  justify-content: center;
 }
 
 .project-image img {
@@ -135,6 +136,53 @@ section > div {
   padding: 16px;
   border: 1px solid white;
 }
+
+/* -- The Stars -- */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.first-star.hovered, .second-star.hovered {
+  animation: rotate 8s linear infinite;
+}
+
+.first-star {
+  position: absolute;
+  top: 14%;
+  left: 26%;
+  width: 3%;
+  z-index: 1;
+  animation: rotate 5s linear infinite;
+  animation-play-state: paused;
+}
+
+.second-star {
+  position: absolute;
+  bottom: 14%;
+  right: 16%;
+  width: 2%;
+  z-index: 1;
+  animation: rotate 8s linear infinite;
+  animation-play-state: paused;
+}
+
+/* -- Sections hover -- */
+.numbers h2, .name-and-lines h2, .project-image img {
+  transition: transform 0.2s ease-in-out, font-weight 0.2s ease-in-out;
+}
+
+.numbers h2.hovered, .name-and-lines h2.hovered, .project-image img.hovered {
+  transform: scale(1.1);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+
 
 /* -- The Container to go back -- */
 .back-container {
