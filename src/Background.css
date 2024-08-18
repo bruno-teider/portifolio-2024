@@ -4,19 +4,6 @@ body {
   padding: 0;
 }
 
-:root {
-  --color-bg1: rgb(88, 16, 124);
-  --color-bg2: rgb(11, 23, 75);
-  --color1: 3, 252, 140; /* Green */
-  --color2: 221, 74, 255; /* Pink */
-  --color3: 100, 220, 255; /* Cyan */
-  --color4: 200, 50, 50; /* Red */
-  --color5: 252, 236, 3; /* Yellow */
-  --circle-size: 90%;
-  --blending: hard-light;
-  --grain-opacity: 0.2;
-}
-
 
 /* -- Bubbles Animation -- */
 @keyframes moveInCircle {
