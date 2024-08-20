@@ -43,7 +43,6 @@ function ProjectInfo({ project, index }) {
 
     const stars = document.querySelectorAll(".first-star, .second-star");
 
-
     const addHoverClass = () => {
       elements.forEach((item) => item.classList.add("hovered"));
       stars.forEach((item) => item.classList.add("hovered"));
@@ -129,7 +128,8 @@ function ProjectsFrame({ getFrameId }) {
         entries.forEach((entry) => {
           if (entry.isIntersecting) {
             const sectionIndex = [...sections].indexOf(entry.target);
-            updateCSSVariables(sectionIndex);
+            const projectName = projects[sectionIndex]?.name;
+            updateCSSVariables(projectName);
           }
         });
       },

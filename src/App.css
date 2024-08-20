@@ -1,19 +1,19 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 @font-face {
-    src: url("../public/fonts/BebasNeueRegular.ttf");
-    font-family: "Bebas Neue";
+  src: url("../public/fonts/BebasNeueRegular.ttf");
+  font-family: "Bebas Neue";
 }
 
 :root {
-    --color-bg1: rgb(88, 16, 124);
-    --color-bg2: rgb(11, 23, 75);
-    --color1: 3, 252, 140; /* Green */
-    --color2: 221, 74, 255; /* Pink */
-    --color3: 100, 220, 255; /* Cyan */
-    --color4: 200, 50, 50; /* Red */
-    --color5: 252, 236, 3; /* Yellow */
-    --circle-size: 90%;
-    --blending: hard-light;
-    --grain-opacity: 0.2;
+  --color-bg1: rgb(255, 201, 166);
+  --color-bg2: rgb(231, 134, 255);
+  --color1: 255, 215, 0; /* Yellow */
+  --color2: 255, 105, 180; /* Pink */
+  --color3: 127, 255, 0; /* Green */
+  --color4: 0, 255, 255; /* Cyan */
+  --color5: 138, 43, 226; /* Purple */
+  --circle-size: 90%;
+  --blending: hard-light;
+  --grain-opacity: 0.5;
 }

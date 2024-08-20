@@ -20,6 +20,7 @@
   position: relative;
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
+  z-index: 1;
 }
 
 /* -- The body --  */
@@ -147,7 +148,8 @@ section > div {
   }
 }
 
-.first-star.hovered, .second-star.hovered {
+.first-star.hovered,
+.second-star.hovered {
   animation: rotate 8s linear infinite;
 }
 
@@ -172,17 +174,19 @@ section > div {
 }
 
 /* -- Sections hover -- */
-.numbers h2, .name-and-lines h2, .project-image img {
+.numbers h2,
+.name-and-lines h2,
+.project-image img {
   transition: transform 0.2s ease-in-out, font-weight 0.2s ease-in-out;
 }
 
-.numbers h2.hovered, .name-and-lines h2.hovered, .project-image img.hovered {
+.numbers h2.hovered,
+.name-and-lines h2.hovered,
+.project-image img.hovered {
   transform: scale(1.1);
   font-weight: 600;
   cursor: pointer;
 }
-
-
 
 /* -- The Container to go back -- */
 .back-container {

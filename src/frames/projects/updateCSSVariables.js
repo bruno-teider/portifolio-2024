@@ -1,8 +1,8 @@
 // To change the background
-export function updateCSSVariables(index) {
+export function updateCSSVariables(projectName) {
   const root = document.documentElement; // Get the root element
-  switch (index) {
-    case 0: // Color Palette
+  switch (projectName) {
+    case "Color Palette Generator":
       root.style.setProperty("--color-bg1", "rgb(240, 229, 228)"); // White
       root.style.setProperty("--color-bg2", "rgb(240, 42, 205)"); // Purple
       root.style.setProperty("--color1", "0, 142, 230"); // Blue
@@ -11,7 +11,7 @@ export function updateCSSVariables(index) {
       root.style.setProperty("--color4", "25, 229, 1"); // Green
       root.style.setProperty("--color5", "230, 0, 223"); // Purple
       break;
-    case 1: // Weather Forecast
+    case "Weather Forecast":
       root.style.setProperty("--color-bg1", "rgb(30, 144, 255)"); // Blue
       root.style.setProperty("--color-bg2", "rgb(255, 228, 196)"); // Beige
       root.style.setProperty("--color1", "19, 20, 20"); // Black
@@ -20,7 +20,7 @@ export function updateCSSVariables(index) {
       root.style.setProperty("--color4", "25, 229, 1"); // Green
       root.style.setProperty("--color5", "230, 0, 223"); // Purple
       break;
-    case 2: // Goofy Glory
+    case "Goofy Glory":
       root.style.setProperty("--color-bg1", "rgb(42, 35, 53)"); // Brown
       root.style.setProperty("--color-bg2", "rgb(151, 109, 69)"); // Almost Black
       root.style.setProperty("--color1", "27, 134, 214"); // Blue
@@ -29,7 +29,7 @@ export function updateCSSVariables(index) {
       root.style.setProperty("--color4", "221, 255, 0"); // Yellow
       root.style.setProperty("--color5", "0, 119, 255"); // Other Blue
       break;
-    case 3: // Rabbit Hole
+    case "Rabbit Hole":
       root.style.setProperty("--color-bg1", "rgb(41, 187, 201)"); // Blueish
       root.style.setProperty("--color-bg2", "rgb(58, 150, 158)"); // Darker Blue
       root.style.setProperty("--color1", "15, 255, 7"); // Green
@@ -38,7 +38,7 @@ export function updateCSSVariables(index) {
       root.style.setProperty("--color4", "79, 79, 79"); // Black
       root.style.setProperty("--color5", "214, 133, 67"); // Light Brown
       break;
-    case 4: // Nicolabs
+    case "Nicolabs":
       root.style.setProperty("--color-bg1", "rgb(74, 102, 145)"); // Dark Blue
       root.style.setProperty("--color-bg2", "rgb(159, 206, 245)"); // Blue
       root.style.setProperty("--color1", "0, 177, 255"); // Blue
@@ -47,7 +47,7 @@ export function updateCSSVariables(index) {
       root.style.setProperty("--color4", "252, 3, 226"); // Light Purple
       root.style.setProperty("--color5", "168, 3, 163"); // Purple
       break;
-    case 5: // Plantae
+    case "Plantae":
       root.style.setProperty("--color-bg1", "rgb(99, 234, 113)"); // Darker Green
       root.style.setProperty("--color-bg2", "rgb(99, 235, 157)"); // Green
       root.style.setProperty("--color1", "218, 141, 235"); // Purple Pastel
