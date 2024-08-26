@@ -2,6 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import MainFrame from "./frames/main/MainFrame";
 import ProjectsFrame from "./frames/projects/ProjectsFrame";
+import ColorPalette from "./frames/colorPalette/ColorPalette";
 import "./Background.css";
 
 function App() {
@@ -20,6 +21,8 @@ function App() {
         return <ProjectsFrame getFrameId={getFrameId} />;
       case 2:
         return <h1>About</h1>;
+      case 3:
+        return <ColorPalette getFrameId={getFrameId} />;
       default:
         return null;
     }
