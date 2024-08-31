@@ -5,10 +5,11 @@ const ColorPalette = ({ getFrameId }) => {
   return (
     <div className="project-frame">
       <div className="marquee">
-        <h1> ⁕ Color Palette Generator </h1>
-        <h1> ⁕ Color Palette Generator </h1>
-        <h1> ⁕ Color Palette Generator </h1>
-        <h1> ⁕ Color Palette Generator </h1>
+        <p class="m-0 p-0 p-3">
+          <span aria-hidden="true">⁕ㅤColor Palette Generatorㅤ</span>
+          <span aria-hidden="true">⁕ㅤColor Palette Generatorㅤ</span>
+          <span aria-hidden="true">⁕ㅤColor Palette Generatorㅤ</span>
+        </p>
       </div>
 
       <div className="project-content">

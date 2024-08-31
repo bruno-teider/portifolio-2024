@@ -3,7 +3,6 @@
   justify-content: flex-start;
   align-items: center;
   height: 100vh;
-  padding: 0 2vw;
   position: relative;
   overflow: hidden;
   width: 100vw;
@@ -13,35 +12,47 @@
 
 /* The Marquee */
 @keyframes vertical-scroll {
-  0% {
-    transform: translateX(-100%);
+  from {
+    transform: translateY(-100%);
   }
-  100% {
-    transform: translateX(100%);
+  to {
+    transform: translateY(0);
   }
 }
 
 .marquee {
   display: flex;
-  overflow: hidden;
-  position: relative;
-  width: 10%;
-  height: 100%;
-}
+  align-items: center;
+  justify-content: center;
 
-.marquee h1 {
+  white-space: nowrap;
+  position: absolute;
+  height: 100vh;
+  width: 5vw;
+  writing-mode: vertical-rl;
+  text-orientation: sideways-right;
   color: #f8f7f4;
   font-family: "Lora", serif;
   font-weight: 200;
-  font-size: 5vh;
+  margin-left: 0.75vw;
+}
+
+.marquee p {
+  overflow: hidden;
   white-space: nowrap;
-  transform: rotate(270deg);
-  animation: vertical-scroll 5s linear infinite;
+  height: 100%;
+}
+
+.marquee span {
+  animation: vertical-scroll 8s linear infinite;
+  display: inline-flex;
+  font-size: 4vw;
 }
 
 /* The main content */
 .project-content {
-  width: 100%;
+  margin-left: 6vw;
+  width: calc(100% - 6vw);
   height: 100%;
   background-color: #f8f7f4;
 }
