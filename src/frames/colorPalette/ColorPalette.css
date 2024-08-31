@@ -95,6 +95,7 @@
   margin-right: 10vw;
   width: 100vh;
   object-fit: contain;
+  border: #000000 5px solid;
 }
 
 /* -- The Container to go back -- */
