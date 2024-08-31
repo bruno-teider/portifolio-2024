@@ -8,8 +8,10 @@
   overflow: hidden;
   width: 100vw;
   height: 100vh;
+  z-index: 100;
 }
 
+/* The Marquee */
 @keyframes vertical-scroll {
   0% {
     transform: translateX(-100%);
@@ -37,17 +39,18 @@
   animation: vertical-scroll 5s linear infinite;
 }
 
+/* The main content */
 .project-content {
   width: 100%;
   height: 100%;
-  background-color: #ffffff;
+  background-color: #f8f7f4;
 }
 
 .text-container {
   align-items: flex-start;
-  width: 45vh;
   margin-left: 4vw;
   margin-top: 3vw;
+  height: 100%;
 }
 
 .date-text {
@@ -60,11 +63,27 @@
   font-size: 2vh;
 }
 
+.text-image-wrapper {
+  display: flex;
+  align-items: center; /* Center vertically */
+  width: 100%;
+  height: 75%;
+}
+
 .main-text {
+  width: 45vh;
   margin-top: 3vw;
   font-family: "Poppins", sans-serif;
-  font-size: 2vh;
+  font-size: 2.5vh;
   font-weight: 400;
+  align-items: center;
+}
+
+.image-container {
+  margin-left: 8vw;
+  margin-right: 10vw;
+  width: 100vh;
+  object-fit: contain;
 }
 
 /* -- The Container to go back -- */
