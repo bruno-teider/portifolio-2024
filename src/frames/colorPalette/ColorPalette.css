@@ -1,34 +1,86 @@
 .project-frame {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   height: 100vh;
   padding: 0 2vw;
   position: relative;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
 }
 
-.title {
+@keyframes vertical-scroll {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.marquee {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  width: 10%;
+  height: 100%;
+}
+
+.marquee h1 {
   color: #f8f7f4;
   font-family: "Lora", serif;
+  font-weight: 200;
+  font-size: 5vh;
+  white-space: nowrap;
+  transform: rotate(270deg);
+  animation: vertical-scroll 5s linear infinite;
+}
+
+.project-content {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+}
+
+.text-container {
+  align-items: flex-start;
+  width: 45vh;
+  margin-left: 4vw;
+  margin-top: 3vw;
+}
+
+.date-text {
+  font-family: "Lora", serif;
+  font-size: 2vh;
+}
+
+.github-text {
+  font-family: "Poppins", sans-serif;
+  font-size: 2vh;
+}
+
+.main-text {
+  margin-top: 3vw;
+  font-family: "Poppins", sans-serif;
+  font-size: 2vh;
   font-weight: 400;
-  font-size: 8vh;
-  transform: translateX(-45%) rotate(-90deg);
 }
 
 /* -- The Container to go back -- */
-.back-container {
+.back-container-project {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
   position: fixed;
-  right: 2vw;
+  right: 0vw;
   height: 17vh;
   width: 4vw;
 }
 
-.back-container h1 {
-  color: #ffffff;
+.back-container-project h1 {
+  color: #000000;
   font-family: "Lora", serif;
   font-size: 1.75vw;
   font-weight: 400;
@@ -38,11 +90,11 @@
   cursor: pointer;
 }
 
-.back-container h1:hover {
+.back-container-project h1:hover {
   color: #b6b6b6;
 }
 
-.back-container h1::after {
+.back-container-project h1::after {
   content: "";
   position: absolute;
   top: 50%;
@@ -50,17 +102,17 @@
   transform: translate(-50%, -50%);
   width: 0;
   height: 2px;
-  background-color: #ffffff;
+  background-color: #000000;
   transition: width 0.2s ease;
 }
 
-.back-container h1:hover::after {
+.back-container-project h1:hover::after {
   width: 100%;
 }
 
-.back-container hr {
+.back-container-project hr {
   transform: rotate(90deg);
   width: 2.5vw;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   margin: 0;
 }

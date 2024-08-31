@@ -3,22 +3,21 @@ import "./MainFrame.css";
 import { useEffect } from "react";
 
 const MainFrame = ({ getFrameId }) => {
-
   return (
     <div className="frame">
       {/* The main paage */}
       <div className="top-container">
-        <p className="top-text">Web developer - Programmer - Designer</p>
+        <p className="top-text">Web developer - Programador - Fotógrafo</p>
         <hr />
         <div className="my-name">Bruno Teider</div>
       </div>
 
       <div className="option-container">
         <div className="first-option" onClick={() => getFrameId(1)}>
-          Projects
+          Projetos
         </div>
         <div className="second-option" onClick={() => getFrameId(2)}>
-          About
+          Sobre
         </div>
 
         <div className="bottom-options">
