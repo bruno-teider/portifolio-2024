@@ -30,8 +30,8 @@ const ColorPalette = ({ getFrameId }) => {
               simples e pelo design moderno.
             </h3>
             <img
-              alt="image-container"
-              className="image-container"
+              alt="color-palette-image"
+              className="color-palette-image"
               src="../../assets/color-palette.gif"
             />
           </div>

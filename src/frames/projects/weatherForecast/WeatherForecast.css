@@ -49,8 +49,11 @@
   justify-content: space-around;
   align-items: center;
   height: 100%;
+  width: 100vh;
   border: none;
-  margin-right: 5%;
+  margin-left: 8vw;
+  margin-right: 10vw;
+  object-fit: contain;
 }
 
 .image-1 {

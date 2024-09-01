@@ -1,7 +1,7 @@
 import { useEffect } from "react";
-import { updateCSSVariables } from "./updateCSSVariables";
+import { updateCSSVariables } from "../components/ProjectsFrameComponents/updateCSSVariables";
 import "./ProjectsFrame.css";
-import { ProjectInfo } from "./projectInfo";
+import { ProjectInfo } from "../components/ProjectsFrameComponents/projectInfo";
 
 const projects = [
   {

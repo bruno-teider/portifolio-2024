@@ -1,7 +1,7 @@
 import { useState } from "react";
 import "./App.css";
 import MainFrame from "./frames/main/MainFrame";
-import ProjectsFrame from "./frames/projects/ProjectsFrame";
+import ProjectsFrame from "./frames/projects/ProjectsFrame/ProjectsFrame";
 import ColorPalette from "./frames/projects/colorPalette/ColorPalette";
 import WeatherForecast from "./frames/projects/weatherForecast/WeatherForecast";
 import "./Background.css";
