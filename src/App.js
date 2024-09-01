@@ -2,7 +2,7 @@ import { useState } from "react";
 import "./App.css";
 import MainFrame from "./frames/main/MainFrame";
 import ProjectsFrame from "./frames/projects/ProjectsFrame";
-import ColorPalette from "./frames/colorPalette/ColorPalette";
+import ColorPalette from "./frames/projects/colorPalette/ColorPalette";
 import "./Background.css";
 
 function App() {
