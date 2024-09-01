@@ -12,7 +12,7 @@ const ColorPalette = ({ getFrameId }) => {
       <div className="project-content">
         <div className="text-container">
           <TopText
-            date={"08.2024"}
+            date={"07.2024"}
             link={"https://github.com/bruno-teider/Color-Palette-Generator"}
           />
 

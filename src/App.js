@@ -3,6 +3,7 @@ import "./App.css";
 import MainFrame from "./frames/main/MainFrame";
 import ProjectsFrame from "./frames/projects/ProjectsFrame";
 import ColorPalette from "./frames/projects/colorPalette/ColorPalette";
+import WeatherForecast from "./frames/projects/weatherForecast/WeatherForecast";
 import "./Background.css";
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
         return <h1>About</h1>;
       case 3:
         return <ColorPalette getFrameId={getFrameId} />;
+      case 4:
+        return <WeatherForecast getFrameId={getFrameId} />;
       default:
         return null;
     }

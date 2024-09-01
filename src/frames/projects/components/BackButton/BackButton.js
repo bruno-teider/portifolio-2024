@@ -6,7 +6,7 @@ const BackButton = ({ getFrameId }) => {
   return (
     <div className="back-container-project">
       <hr />
-      <h1 onClick={() => getFrameId(0)}>Back</h1>
+      <h1 onClick={() => getFrameId(1)}>Back</h1>
       <hr />
     </div>
   );
