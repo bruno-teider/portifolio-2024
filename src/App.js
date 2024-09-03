@@ -7,6 +7,8 @@ import ColorPalette from "./frames/projects/colorPalette/ColorPalette";
 import WeatherForecast from "./frames/projects/weatherForecast/WeatherForecast";
 import RabbitHole from "./frames/projects/RabbitHole/RabbitHole";
 import Nicolabs from "./frames/projects/Nicolabs/Nicolabs";
+import GoofyGlory from "./frames/projects/GooftGlory/GoofyGlory";
+import Plantae from "./frames/projects/Plantae/Plantae";
 
 function App() {
   const bubbles = [1, 2, 3, 4, 5];
@@ -28,10 +30,14 @@ function App() {
         return <ColorPalette getFrameId={getFrameId} />;
       case 4:
         return <WeatherForecast getFrameId={getFrameId} />;
+      case 5:
+        return <GoofyGlory getFrameId={getFrameId} />;
       case 6:
         return <RabbitHole getFrameId={getFrameId} />;
       case 7:
         return <Nicolabs getFrameId={getFrameId} />;
+      case 8:
+        return <Plantae getFrameId={getFrameId} />;
       default:
         return null;
     }
