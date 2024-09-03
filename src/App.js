@@ -5,6 +5,7 @@ import ProjectsFrame from "./frames/projects/ProjectsFrame/ProjectsFrame";
 import ColorPalette from "./frames/projects/colorPalette/ColorPalette";
 import WeatherForecast from "./frames/projects/weatherForecast/WeatherForecast";
 import "./Background.css";
+import RabbitHole from "./frames/projects/RabbitHole/RabbitHole";
 
 function App() {
   const bubbles = [1, 2, 3, 4, 5];
@@ -26,6 +27,8 @@ function App() {
         return <ColorPalette getFrameId={getFrameId} />;
       case 4:
         return <WeatherForecast getFrameId={getFrameId} />;
+      case 6:
+        return <RabbitHole getFrameId={getFrameId} />;
       default:
         return null;
     }
