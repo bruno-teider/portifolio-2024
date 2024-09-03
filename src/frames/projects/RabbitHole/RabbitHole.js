@@ -34,7 +34,7 @@ const RabbitHole = ({ getFrameId }) => {
                 muted
                 playsInline
               >
-                Your browser does not support the video tag.
+                Seu navegador não suporta o video :/
               </video>
 
               <div style={{ marginLeft: "5%" }}>
