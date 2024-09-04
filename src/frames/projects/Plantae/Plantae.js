@@ -2,53 +2,52 @@ import React from "react";
 import "./Plantae.css";
 import Marquee from "../components/Marquee/Marquee";
 import BackButton from "../components/BackButton/BackButton";
-import TopText from "../components/TopText/TopText";
 
 const Plantae = ({ getFrameId }) => {
   return (
-    <div className="project-frame">
+    <div className="plantae">
       <Marquee content="Plantae" />
 
       <div className="project-content">
         <div className="text-container">
-          <TopText
-            date={"02.2024"}
-            link={"https://github.com/bruno-teider/Goofy-Glory"}
-          />
+          <div className="top-text">
+            <h1 className="date-text">2021</h1>
+          </div>
 
           <div className="text-image-wrapper">
             <h3 className="main-text">
-              Rabbit Hole é um jogo que foi desenvolvido durante a Global Game
-              Jam de 2023, onde eu atuei principalmente na parte visual. O
-              projeto foi criado em equipe com o objetivo de entregar um jogo em
-              48 horas com o tema "Raízes". O jogo é um Infinite Scrolling Game
-              com o objetivo de chegar o mais longe possível, contendo
-              obstáculos e power-ups.
+              O Plantae foi meu projeto de conclusão de curso para o Tecpuc
+              (ensino médio técnico), onde atuei principalmente no design e no
+              desenvolvimento web. No Plantae, desenvolvemos uma mini estufa
+              automatizada para plantas, projetada para simplificar e facilitar
+              o cultivo delas para quem tem pouco espaço. O usuário precisa
+              apenas reabastecer o reservatório de água; todo o restante é
+              controlado automaticamente. O sistema utiliza sensores para
+              monitorar a umidade do solo, a temperatura e o nível de água no
+              reservatório, todos conectados a um Arduino. As informações
+              coletadas são apresentadas em tempo real em uma dashboard.
             </h3>
             <div className="image-container">
-              <video
-                className="video"
-                src="../../assets/video_rabbit_hole.mp4"
-                autoPlay
-                loop
-                muted
-                playsInline
-              >
-                Seu navegador não suporta o video :/
-              </video>
-
-              <div style={{ marginLeft: "5%" }}>
-                <img
-                  alt="rabbit_hole_gameover"
-                  className="image"
-                  src={"../../assets/rabbit_hole_gameover.jpg"}
-                />
-                <img
-                  alt="rabbit_hole_jogar"
-                  className="image"
-                  src={"../../assets/rabbit_hole_jogar.jpg"}
-                />
-              </div>
+              <img
+                alt="plantae-1"
+                className="image"
+                src={"../../assets/plantae/plantae_inicial_gif.gif"}
+              />
+              <img
+                alt="plantae-2"
+                className="image"
+                src={"../../assets/plantae/plantae_login.png"}
+              />
+              <img
+                alt="plantae-3"
+                className="image"
+                src={"../../assets/plantae/plantae_status_funcionando.png"}
+              />
+              <img
+                alt="plantae-4"
+                className="image"
+                src={"../../assets/plantae/plantae_gif.gif"}
+              />
             </div>
           </div>
         </div>

@@ -7,7 +7,7 @@ import ColorPalette from "./frames/projects/colorPalette/ColorPalette";
 import WeatherForecast from "./frames/projects/weatherForecast/WeatherForecast";
 import RabbitHole from "./frames/projects/RabbitHole/RabbitHole";
 import Nicolabs from "./frames/projects/Nicolabs/Nicolabs";
-import GoofyGlory from "./frames/projects/GooftGlory/GoofyGlory";
+import GoofyGlory from "./frames/projects/GoofyGlory/GoofyGlory";
 import Plantae from "./frames/projects/Plantae/Plantae";
 
 function App() {
