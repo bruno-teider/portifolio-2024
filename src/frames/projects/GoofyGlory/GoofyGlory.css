@@ -1,4 +1,4 @@
-.project-frame {
+.goofy-glory {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -19,7 +19,7 @@
   position: relative;
 }
 
-.text-container {
+.goofy-glory .text-container {
   align-items: flex-start;
   margin-left: 4vw;
   margin-top: 3vw;
@@ -27,7 +27,7 @@
   overflow: hidden;
 }
 
-.text-image-wrapper {
+.goofy-glory .text-image-wrapper {
   display: flex;
   align-items: center;
   width: 100%;
@@ -36,7 +36,7 @@
   margin-top: 2%;
 }
 
-.main-text {
+.goofy-glory .main-text {
   width: 45vh;
   font-family: "Poppins", sans-serif;
   font-size: 2.1vh;
@@ -44,28 +44,29 @@
   align-items: center;
 }
 
-.image-container {
+.goofy-glory .image-container {
   display: flex;
   justify-content: space-around;
   align-items: center;
   height: 100%;
   width: 100vh;
   border: none;
-  margin-left: 8vw;
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 15vw;
   object-fit: contain;
 }
 
-.video {
-  width: 35%;
+.goofy-glory .video {
+  width: 80%;
   height: auto;
   border: 4px solid black;
-  border-radius: 20px;
+  border-radius: 0px;
 }
 
-.image {
+.goofy-glory .image {
   border: #000000 4px solid;
-  width: 85%;
+  border-radius: 10px;
+  width: 200%;
   height: auto;
   object-fit: contain;
 }

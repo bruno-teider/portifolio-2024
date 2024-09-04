@@ -6,7 +6,7 @@ import TopText from "../components/TopText/TopText";
 
 const GoofyGlory = ({ getFrameId }) => {
   return (
-    <div className="project-frame">
+    <div className="goofy-glory">
       <Marquee content="Goofy Glory" />
 
       <div className="project-content">
@@ -31,7 +31,7 @@ const GoofyGlory = ({ getFrameId }) => {
             <div className="image-container">
               <video
                 className="video"
-                src="../../assets/video_rabbit_hole.mp4"
+                src="../../assets/goofyGlory/goofy_video.mp4"
                 autoPlay
                 loop
                 muted
@@ -42,14 +42,9 @@ const GoofyGlory = ({ getFrameId }) => {
 
               <div style={{ marginLeft: "5%" }}>
                 <img
-                  alt="rabbit_hole_gameover"
+                  alt="goofy_glory_1"
                   className="image"
-                  src={"../../assets/rabbit_hole_gameover.jpg"}
-                />
-                <img
-                  alt="rabbit_hole_jogar"
-                  className="image"
-                  src={"../../assets/rabbit_hole_jogar.jpg"}
+                  src={"../../assets/goofyGlory/goofy_glory.jpg"}
                 />
               </div>
             </div>
