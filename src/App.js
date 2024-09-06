@@ -9,6 +9,7 @@ import RabbitHole from "./frames/projects/RabbitHole/RabbitHole";
 import Nicolabs from "./frames/projects/Nicolabs/Nicolabs";
 import GoofyGlory from "./frames/projects/GoofyGlory/GoofyGlory";
 import Plantae from "./frames/projects/Plantae/Plantae";
+import About from "./frames/about/About";
 
 function App() {
   const bubbles = [1, 2, 3, 4, 5];
@@ -25,7 +26,7 @@ function App() {
       case 1:
         return <ProjectsFrame getFrameId={getFrameId} />;
       case 2:
-        return <h1>About</h1>;
+        return <About getFrameId={getFrameId} />;
       case 3:
         return <ColorPalette getFrameId={getFrameId} />;
       case 4:
