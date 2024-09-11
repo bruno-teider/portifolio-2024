@@ -33,7 +33,7 @@ const About = ({ getFrameId }) => {
         </div>
       </div>
 
-      <img alt="my-picture" className="my-picture" src="../../assets/eu.JPG" />
+      <img alt="my-picture" className="my-picture" src="../../assets/eu2.JPG" />
 
       <div className="back-container-about">
         <hr />
