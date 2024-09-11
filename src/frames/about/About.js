@@ -10,16 +10,25 @@ const About = ({ getFrameId }) => {
           <h1 className="name">Bruno Teider</h1>
 
           <h3 className="main-text">
-            O Color Palette Generator é uma aplicação desenvolvida em React que
-            permite a geração de diferentes paletas de cores. Utilizando a API
-            Colormind, a aplicação gera combinações de cores harmoniosas,
-            permitindo que os usuários explorem diferentes opções de paletas
-            para seus projetos. A interface intuitiva e responsiva facilita a
-            navegação e a seleção de cores, além de oferecer a possibilidade de
-            copiar as paletas e cores diretamente para a área de transferência.
-            Este projeto demonstra a integração eficiente entre React,
-            Material-UI e APIs externas, destacando-se pela usabilidade simples
-            e pelo design moderno.
+            ㅤOlá! Meu nome é Bruno Teider e sou apaixonado por tecnologia,
+            design, fotografia e skate. Atualmente, estou estagiando como
+            Desenvolvedor Front-End Mobile na Educt, onde tenho trabalhado com
+            desenvolvimento mobile utilizando React Native.
+          </h3>
+          <h3 className="main-text">
+            ㅤMinha trajetória profissional começou de uma maneira inusitada, já
+            que meu primeiro "emprego" foi como soldado no exército por pouco
+            mais de um ano, uma experiência que sem dúvidas me ensinou muito e
+            me mudou como pessoa. Sou formado como técnico em informática pela
+            TECPUC, e no momento estou cursando Ciência da Computação na PUCPR.
+          </h3>
+          <h3 className="main-text">
+            ㅤAlém da tecnologia, sou fã de design e sempre busco aprender mais
+            sobre o assunto em meu tempo livre. Também sou fotógrafo, realizando
+            freelances e participando ativamente do Clube de Fotografia da
+            PUCPR, onde já tive a oportunidade de expor meu trabalho em uma
+            exposição. Você pode conferir um pouco das minhas fotografias no
+            Instagram: @teider_fotos.
           </h3>
         </div>
       </div>

@@ -18,16 +18,18 @@ const WeatherForecast = ({ getFrameId }) => {
 
           <div className="text-image-wrapper">
             <h3 className="main-text">
-              O Weather Forecast é uma aplicação web desenvolvida em React que
+              ㅤO Weather Forecast é uma aplicação web desenvolvida em React que
               exibe previsões meteorológicas detalhadas para diversas
               localidades. Integrando a API do OpenWeatherMap, o projeto permite
               que os usuários obtenham informações precisas sobre a previsão do
               tempo, incluindo temperatura, umidade, velocidade do vento, e
-              condições climáticas para os próximos dias. Ela também possui
-              componentes da Material-UI para realizar alertas sobre possíveis
-              erros. Apresenta um background dinâmico que varia de acordo com a
-              condição climática na cidade pesquisada, proporcionando uma
-              experiência visual imersiva e interativa.
+              condições climáticas para os próximos dias.
+              <br />
+              <br />
+              ㅤEla também possui componentes da Material-UI para realizar
+              alertas sobre possíveis erros. Apresenta um background dinâmico
+              que varia de acordo com a condição climática na cidade pesquisada,
+              proporcionando uma experiência visual imersiva e interativa.
             </h3>
             <div className="image-container">
               <img

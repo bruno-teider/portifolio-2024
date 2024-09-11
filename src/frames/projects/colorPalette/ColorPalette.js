@@ -18,16 +18,19 @@ const ColorPalette = ({ getFrameId }) => {
 
           <div className="text-image-wrapper">
             <h3 className="main-text">
-              O Color Palette Generator é uma aplicação desenvolvida em React
+              ㅤO Color Palette Generator é uma aplicação desenvolvida em React
               que permite a geração de diferentes paletas de cores. Utilizando a
               API Colormind, a aplicação gera combinações de cores harmoniosas,
               permitindo que os usuários explorem diferentes opções de paletas
-              para seus projetos. A interface intuitiva e responsiva facilita a
-              navegação e a seleção de cores, além de oferecer a possibilidade
-              de copiar as paletas e cores diretamente para a área de
-              transferência. Este projeto demonstra a integração eficiente entre
-              React, Material-UI e APIs externas, destacando-se pela usabilidade
-              simples e pelo design moderno.
+              para seus projetos.
+              <br />
+              <br />
+              ㅤA interface intuitiva e responsiva facilita a navegação e a
+              seleção de cores, além de oferecer a possibilidade de copiar as
+              paletas e cores diretamente para a área de transferência. Este
+              projeto demonstra a integração eficiente entre React, Material-UI
+              e APIs externas, destacando-se pela usabilidade simples e pelo
+              design moderno.
             </h3>
             <img
               alt="color-palette-image"

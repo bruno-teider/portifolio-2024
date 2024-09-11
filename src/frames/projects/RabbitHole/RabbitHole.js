@@ -18,13 +18,17 @@ const RabbitHole = ({ getFrameId }) => {
 
           <div className="text-image-wrapper">
             <h3 className="main-text">
-              Rabbit Hole é um jogo desenvolvido em equipe durante a Global Game
-              Jam de 2023, onde eu atuei principalmente na parte visual. Com o
-              desafio de criar um jogo em apenas 48 horas com o tema "Raízes" e
-              desenvolvemos um Infinite Scrolling Game. O objetivo do jogo é
-              levar o jogador a percorrer o máximo de distância possível,
+              ㅤRabbit Hole é um jogo desenvolvido em equipe durante a Global
+              Game Jam de 2023, onde eu atuei principalmente na parte visual.
+              <br />
+              <br />
+              ㅤCom o desafio de criar um jogo em apenas 48 horas com o tema
+              "Raízes", desenvolvemos um Infinite Scrolling Game. O objetivo do
+              jogo é levar o jogador a percorrer o máximo de distância possível,
               enfrentando obstáculos e coletando power-ups ao longo do caminho.
-              A experiência tem uma jogabilidade desafiadora, viciante e
+              <br />
+              <br />
+              ㅤO jogo tem uma jogabilidade desafiadora, viciante e bem
               divertida.
             </h3>
             <div className="image-container">

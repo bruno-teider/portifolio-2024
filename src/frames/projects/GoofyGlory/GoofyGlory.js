@@ -18,15 +18,20 @@ const GoofyGlory = ({ getFrameId }) => {
 
           <div className="text-image-wrapper">
             <h3 className="main-text">
-              Goofy Glory é um jogo desenvolvido em equipe durante a Global Game
-              Jam de 2024, onde precisávamos criar um jogo em apenas 48 horas
-              com o tema "Risada". Eu atuei principalmente na parte visual do
-              projeto. O jogo é um couch coop em que dois jogadores assumem o
-              papel de bobos da corte e precisam fazer o rei e a plateia rirem.
-              Para isso, eles batalham entre si usando armas cômicas, como
-              patinhos de borracha, em um ambiente com uma atmosfera bem cômica.
-              O jogo é perfeito para jogar com amigos e em festas,
-              proporcionando momentos de bastante risadas.
+              ㅤGoofy Glory é um jogo desenvolvido em equipe durante a Global
+              Game Jam de 2024, onde precisávamos criar um jogo em apenas 48
+              horas com o tema "Risada".
+              <br />
+              <br />
+              ㅤEu atuei principalmente na parte visual do projeto. O jogo é um
+              couch coop em que dois jogadores assumem o papel de bobos da corte
+              e precisam fazer o rei e a plateia rirem. Para isso, eles batalham
+              entre si usando armas cômicas, como patinhos de borracha, em um
+              ambiente com uma atmosfera bem cômica.
+              <br />
+              <br />
+              ㅤO jogo é perfeito para jogar com amigos e em festas,
+              proporcionando momentos de bastante risadas!
             </h3>
             <div className="image-container">
               <video

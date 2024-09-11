@@ -16,16 +16,19 @@ const Plantae = ({ getFrameId }) => {
 
           <div className="text-image-wrapper">
             <h3 className="main-text">
-              O Plantae foi meu projeto de conclusão de curso para o Tecpuc
+              ㅤO Plantae foi meu projeto de conclusão de curso para o Tecpuc
               (ensino médio técnico), onde atuei principalmente no design e no
               desenvolvimento web. No Plantae, desenvolvemos uma mini estufa
               automatizada para plantas, projetada para simplificar e facilitar
-              o cultivo delas para quem tem pouco espaço. O usuário precisa
-              apenas reabastecer o reservatório de água; todo o restante é
-              controlado automaticamente. O sistema utiliza sensores para
-              monitorar a umidade do solo, a temperatura e o nível de água no
-              reservatório, todos conectados a um Arduino. As informações
-              coletadas são apresentadas em tempo real em uma dashboard.
+              o cultivo delas para quem tem pouco espaço.
+              <br />
+              <br />
+              ㅤO usuário precisa apenas reabastecer o reservatório de água;
+              todo o restante é controlado automaticamente. O sistema utiliza
+              sensores para monitorar a umidade do solo, a temperatura e o nível
+              de água no reservatório, todos conectados a um Arduino. As
+              informações coletadas são apresentadas em tempo real em uma
+              dashboard.
             </h3>
             <div className="image-container">
               <img
