@@ -1,6 +1,5 @@
 import React from "react";
 import "./About.css";
-import BackButton from "../projects/components/BackButton/BackButton";
 
 const About = ({ getFrameId }) => {
   return (
@@ -11,16 +10,17 @@ const About = ({ getFrameId }) => {
 
           <h3 className="main-text">
             ㅤOlá! Meu nome é Bruno Teider e sou apaixonado por tecnologia,
-            design, fotografia e skate. Atualmente, estou estagiando como
-            Desenvolvedor Front-End Mobile na Educt, onde tenho trabalhado com
-            desenvolvimento mobile utilizando React Native.
+            design, fotografia e skate. Sou formado como técnico em informática
+            pela TECPUC, e no momento estou cursando Ciência da Computação na
+            PUCPR.
           </h3>
           <h3 className="main-text">
             ㅤMinha trajetória profissional começou de uma maneira inusitada, já
-            que meu primeiro "emprego" foi como soldado no exército por pouco
-            mais de um ano, uma experiência que sem dúvidas me ensinou muito e
-            me mudou como pessoa. Sou formado como técnico em informática pela
-            TECPUC, e no momento estou cursando Ciência da Computação na PUCPR.
+            que meu primeiro "emprego" foi como soldado no exército, onde fiquei
+            pouco mais de um ano. Foi uma experiência que me ensinou bastante e
+            me fez crescer muito como pessoa. Atualmente, estou estagiando como
+            Desenvolvedor Front-End Mobile na Educt, utilizando React Native e
+            Typescript.
           </h3>
           <h3 className="main-text">
             ㅤAlém da tecnologia, sou fã de design e sempre busco aprender mais
