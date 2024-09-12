@@ -48,7 +48,7 @@
 .color-palette-image {
   margin-left: 8vw;
   margin-right: 10vw;
-  width: 100vh;
+  width: 85vh;
   object-fit: contain;
   border: #000000 5px solid;
 }

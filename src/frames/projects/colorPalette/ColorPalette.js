@@ -25,12 +25,10 @@ const ColorPalette = ({ getFrameId }) => {
               para seus projetos.
               <br />
               <br />
-              ㅤA interface intuitiva e responsiva facilita a navegação e a
-              seleção de cores, além de oferecer a possibilidade de copiar as
-              paletas e cores diretamente para a área de transferência. Este
-              projeto demonstra a integração eficiente entre React, Material-UI
-              e APIs externas, destacando-se pela usabilidade simples e pelo
-              design moderno.
+              ㅤO Projeto oferece a possibilidade de copiar as paletas e cores
+              diretamente para a área de transferência. Este projeto demonstra a
+              integração eficiente entre React, Material-UI e APIs externas,
+              destacando-se pela usabilidade fácil e pelo design moderno.
             </h3>
             <img
               alt="color-palette-image"
