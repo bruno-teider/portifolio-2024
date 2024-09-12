@@ -6,7 +6,7 @@ import TopText from "../components/TopText/TopText";
 
 const RabbitHole = ({ getFrameId }) => {
   return (
-    <div className="project-frame">
+    <div className="rabbit-hole">
       <Marquee content="Rabbit Hole" />
 
       <div className="project-content">
@@ -21,15 +21,11 @@ const RabbitHole = ({ getFrameId }) => {
               ㅤRabbit Hole é um jogo desenvolvido em equipe durante a Global
               Game Jam de 2023, onde eu atuei principalmente na parte visual.
               <br />
-              <br />
               ㅤCom o desafio de criar um jogo em apenas 48 horas com o tema
               "Raízes", desenvolvemos um Infinite Scrolling Game. O objetivo do
               jogo é levar o jogador a percorrer o máximo de distância possível,
               enfrentando obstáculos e coletando power-ups ao longo do caminho.
-              <br />
-              <br />
-              ㅤO jogo tem uma jogabilidade desafiadora, viciante e bem
-              divertida.
+              O jogo tem uma jogabilidade desafiadora, viciante e bem divertida.
             </h3>
             <div className="image-container">
               <video

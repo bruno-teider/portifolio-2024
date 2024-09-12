@@ -1,4 +1,4 @@
-.project-frame {
+.rabbit-hole {
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -36,12 +36,13 @@
   margin-top: 2%;
 }
 
-.main-text {
+.rabbit-hole .main-text {
   width: 45vh;
   font-family: "Poppins", sans-serif;
   font-size: 2.1vh;
   font-weight: 400;
   align-items: center;
+  margin-top: -5%;
 }
 
 .image-container {

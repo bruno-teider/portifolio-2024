@@ -35,7 +35,7 @@ const ColorPalette = ({ getFrameId }) => {
             <img
               alt="color-palette-image"
               className="color-palette-image"
-              src={`${process.env.PUBLIC_URL}assets/color-palette.gif`}
+              src={`${process.env.PUBLIC_URL}/assets/color-palette.gif`}
             />
           </div>
         </div>
