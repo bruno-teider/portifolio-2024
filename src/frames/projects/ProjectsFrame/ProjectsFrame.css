@@ -12,8 +12,14 @@
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: rgba(255, 255, 255, 0.774);
+  background-color: rgba(255, 255, 255, 0.63);
   border-radius: 20px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: transparent;
+  border-left: rgba(255, 255, 255, 0.63) 2px solid;
+  position: relative;
 }
 
 .projects-frame {
