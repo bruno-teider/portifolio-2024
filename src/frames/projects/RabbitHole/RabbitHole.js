@@ -34,7 +34,7 @@ const RabbitHole = ({ getFrameId }) => {
             <div className="image-container">
               <video
                 className="video"
-                src="../../assets/video_rabbit_hole.mp4"
+                src={`${process.env.PUBLIC_URL}/assets/video_rabbit_hole.mp4`}
                 autoPlay
                 loop
                 muted

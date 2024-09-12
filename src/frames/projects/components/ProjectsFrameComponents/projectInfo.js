@@ -38,10 +38,14 @@ export function ProjectInfo({ project, projects, index, getFrameId }) {
       id={`project-section-${index}`}
       onClick={() => getFrameId(index + 3)}
     >
-      <img className="first-star" src="../../assets/star.png" alt="star" />
+      <img
+        className="first-star"
+        src={`${process.env.PUBLIC_URL}/assets/star.png`}
+        alt="star"
+      />
       <img
         className="second-star"
-        src="../../assets/second-star.png"
+        src={`${process.env.PUBLIC_URL}/assets/second-star.png`}
         alt="second-star"
       />
 
