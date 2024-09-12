@@ -45,6 +45,13 @@
   margin-top: 0%;
 }
 
+.about-frame .image-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
 .about-frame .my-picture {
   position: absolute;
   right: 18%;
@@ -52,6 +59,17 @@
   object-fit: contain;
   padding: 16px;
   border: 1px solid white;
+}
+
+.about-frame .first-star {
+  left: 86%;
+  top: 10%;
+  width: 2%;
+}
+
+.about-frame .second-star {
+  right: 50%;
+  bottom: 10%;
 }
 
 /* Back Button */
