@@ -35,12 +35,12 @@ const WeatherForecast = ({ getFrameId }) => {
               <img
                 alt="weather-forecast-2"
                 className="image-1"
-                src={"../../assets/weather-forecast-2.png"}
+                src={`${process.env.PUBLIC_URL}/assets/weather-forecast-2.png`}
               />
               <img
                 alt="weather-forecast-3"
                 className="image-2"
-                src={"../../assets/weather-forecast-3.png"}
+                src={`${process.env.PUBLIC_URL}/assets/weather-forecast-3.png`}
               />
             </div>
           </div>

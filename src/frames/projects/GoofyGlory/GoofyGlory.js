@@ -36,7 +36,7 @@ const GoofyGlory = ({ getFrameId }) => {
             <div className="image-container">
               <video
                 className="video"
-                src="../../assets/goofyGlory/goofy_video.mp4"
+                src={`${process.env.PUBLIC_URL}/assets/goofyGlory/goofy_video.mp4`}
                 autoPlay
                 loop
                 muted
@@ -49,7 +49,7 @@ const GoofyGlory = ({ getFrameId }) => {
                 <img
                   alt="goofy_glory_1"
                   className="image"
-                  src={"../../assets/goofyGlory/goofy_glory.jpg"}
+                  src={`${process.env.PUBLIC_URL}/assets/goofyGlory/goofy_glory.jpg`}
                 />
               </div>
             </div>

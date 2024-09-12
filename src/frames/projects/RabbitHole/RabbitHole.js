@@ -47,12 +47,12 @@ const RabbitHole = ({ getFrameId }) => {
                 <img
                   alt="rabbit_hole_gameover"
                   className="image"
-                  src={"../../assets/rabbit_hole_gameover.jpg"}
+                  src={`${process.env.PUBLIC_URL}/assets/rabbit_hole_gameover.jpg`}
                 />
                 <img
                   alt="rabbit_hole_jogar"
                   className="image"
-                  src={"../../assets/rabbit_hole_jogar.jpg"}
+                  src={`${process.env.PUBLIC_URL}/assets/rabbit_hole_jogar.jpg`}
                 />
               </div>
             </div>

@@ -35,17 +35,17 @@ const About = ({ getFrameId }) => {
       <div className="image-wrapper">
         <img
           className="second-star"
-          src="../../assets/star.png"
+          src={`${process.env.PUBLIC_URL}/assets/star.png`}
           alt="first-star"
         />
         <img
           alt="my-picture"
           className="my-picture"
-          src="../../assets/eu2.JPG"
+          src={`${process.env.PUBLIC_URL}/assets/eu2.JPG`}
         />
         <img
           className="first-star"
-          src="../../assets/star.png"
+          src={`${process.env.PUBLIC_URL}/assets/star.png`}
           alt="second-star"
         />
       </div>

@@ -34,22 +34,22 @@ const Nicolabs = ({ getFrameId }) => {
               <img
                 alt="nicolabs-1"
                 className="image"
-                src={"../../assets/nicolabs/nicolabs-1.png"}
+                src={`${process.env.PUBLIC_URL}/assets/nicolabs/nicolabs-1.png`}
               />
               <img
                 alt="nicolabs-2"
                 className="image"
-                src={"../../assets/nicolabs/nicolabs-2.png"}
+                src={`${process.env.PUBLIC_URL}/assets/nicolabs/nicolabs-2.png`}
               />
               <img
                 alt="nicolabs-3"
                 className="image"
-                src={"../../assets/nicolabs/nicolabs-3.png"}
+                src={`${process.env.PUBLIC_URL}/assets/nicolabs/nicolabs-3.png`}
               />
               <img
                 alt="nicolabs-4"
                 className="image"
-                src={"../../assets/nicolabs/nicolabs-4.png"}
+                src={`${process.env.PUBLIC_URL}/assets/nicolabs/nicolabs-4.png`}
               />
             </div>
           </div>

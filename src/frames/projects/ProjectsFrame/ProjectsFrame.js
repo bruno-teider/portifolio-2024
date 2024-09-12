@@ -6,11 +6,11 @@ import { ProjectInfo } from "../components/ProjectsFrameComponents/projectInfo";
 const projects = [
   {
     name: "Color Palette Generator",
-    image: "../../assets/color-palette.png",
+    image: `${process.env.PUBLIC_URL}/assets/color-palette.png`,
   },
   {
     name: "Weather Forecast",
-    image: "../../assets/weather-forecast-1.png",
+    image: `${process.env.PUBLIC_URL}/assets/weather-forecast-1.png`,
   },
   {
     name: "Goofy Glory",
@@ -22,7 +22,7 @@ const projects = [
   },
   {
     name: "Nicolabs",
-    image: "../../assets/nicolabs-1.png",
+    image: `${process.env.PUBLIC_URL}/assets/nicolabs-1.png`,
   },
   {
     name: "Plantae",

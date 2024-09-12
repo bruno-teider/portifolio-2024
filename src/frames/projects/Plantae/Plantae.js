@@ -34,22 +34,22 @@ const Plantae = ({ getFrameId }) => {
               <img
                 alt="plantae-1"
                 className="image"
-                src={"../../assets/plantae/plantae_inicial_gif.gif"}
+                src={`${process.env.PUBLIC_URL}/assets/plantae/plantae_inicial_gif.gif`}
               />
               <img
                 alt="plantae-2"
                 className="image"
-                src={"../../assets/plantae/plantae_login.png"}
+                src={`${process.env.PUBLIC_URL}/assets/plantae/plantae_login.png`}
               />
               <img
                 alt="plantae-3"
                 className="image"
-                src={"../../assets/plantae/plantae_status_funcionando.png"}
+                src={`${process.env.PUBLIC_URL}/assets/plantae/plantae_status_funcionando.png`}
               />
               <img
                 alt="plantae-4"
                 className="image"
-                src={"../../assets/plantae/plantae_gif.gif"}
+                src={`${process.env.PUBLIC_URL}/assets/plantae/plantae_gif.gif`}
               />
             </div>
           </div>
