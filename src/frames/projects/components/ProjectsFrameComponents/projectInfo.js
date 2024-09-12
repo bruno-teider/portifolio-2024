@@ -37,6 +37,7 @@ export function ProjectInfo({ project, projects, index, getFrameId }) {
     <section
       id={`project-section-${index}`}
       onClick={() => getFrameId(index + 3)}
+      style={{ overflowX: "hidden" }}
     >
       <img
         className="first-star"
