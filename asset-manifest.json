@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/portifolio-2024/static/css/main.5f868fe7.css",
-    "main.js": "/portifolio-2024/static/js/main.161fd416.js",
+    "main.js": "/portifolio-2024/static/js/main.d357c9f5.js",
     "static/media/BebasNeueRegular.ttf": "/portifolio-2024/static/media/BebasNeueRegular.12e3683f9192436a7be8.ttf",
     "index.html": "/portifolio-2024/index.html",
     "main.5f868fe7.css.map": "/portifolio-2024/static/css/main.5f868fe7.css.map",
-    "main.161fd416.js.map": "/portifolio-2024/static/js/main.161fd416.js.map"
+    "main.d357c9f5.js.map": "/portifolio-2024/static/js/main.d357c9f5.js.map"
   },
   "entrypoints": [
     "static/css/main.5f868fe7.css",
-    "static/js/main.161fd416.js"
+    "static/js/main.d357c9f5.js"
   ]
 }
