@@ -29,7 +29,8 @@ const WeatherForecast = ({ getFrameId }) => {
               ㅤEla também possui componentes da Material-UI para realizar
               alertas sobre possíveis erros. Apresenta um background dinâmico
               que varia de acordo com a condição climática na cidade pesquisada,
-              proporcionando uma experiência visual imersiva e interativa.
+              além de diferentes ícones para as condições, proporcionando uma
+              experiência mais acessível e intuitiva para todos os usuários.
             </h3>
             <div className="image-container">
               <img

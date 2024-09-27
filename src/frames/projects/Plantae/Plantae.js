@@ -17,7 +17,8 @@ const Plantae = ({ getFrameId }) => {
           <div className="text-image-wrapper">
             <h3 className="main-text">
               ㅤO Plantae foi meu projeto de conclusão de curso para o Tecpuc
-              (ensino médio técnico), onde atuei principalmente no design e no
+              (ensino médio técnico) e um dos primeiros grandes projetos em
+              equipe que participei, onde atuei principalmente no design e no
               desenvolvimento web. No Plantae, desenvolvemos uma mini estufa
               automatizada para plantas, projetada para simplificar e facilitar
               o cultivo delas para quem tem pouco espaço.

@@ -31,7 +31,7 @@ const GoofyGlory = ({ getFrameId }) => {
               <br />
               <br />
               ㅤO jogo é perfeito para jogar com amigos e em festas,
-              proporcionando momentos de bastante risadas!
+              proporcionando momentos de bastante risadas e diversão!
             </h3>
             <div className="image-container">
               <video

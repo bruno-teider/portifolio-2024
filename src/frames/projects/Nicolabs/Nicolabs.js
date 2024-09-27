@@ -20,15 +20,16 @@ const Nicolabs = ({ getFrameId }) => {
             <h3 className="main-text">
               ㅤO projeto NicoLabs é uma aplicação web full-stack desenvolvida
               com Python e Flask, utilizando uma arquitetura MVC. Ele integra
-              dispositivos IoT, como Esp32, para monitoramento e controle de
-              sensores e atuadores através de um dashboard interativo.
+              dispositivos IoT, como Esp32, para monitorar e controlar sensores
+              e atuadores através de um dashboard interativo.
               <br />
               <br />
               ㅤAs funcionalidades incluem autenticação de usuários, exibição de
               dados em tempo real, controle de atuadores, e armazenamento de
-              dados em banco de dados. A interface é responsiva, incorporando
-              CSS, JavaScript e outros recursos estáticos. O projeto foi feito
-              em equipe como para a matéria de Soluções Computacionais.
+              dados em banco de dados. A interface é responsiva, com CSS,
+              JavaScript e outros recursos estáticos. O projeto foi feito em
+              equipe como para a matéria de Soluções Computacionais da
+              faculdade.
             </h3>
             <div className="image-container">
               <img
