@@ -14,11 +14,11 @@ const projects = [
   },
   {
     name: "Goofy Glory",
-    image: "https://i.ibb.co/Wghfrrd/book1.jpg",
+    image: `${process.env.PUBLIC_URL}/assets/goofyGlory/goofy_main_img.jpg`,
   },
   {
     name: "Rabbit Hole",
-    image: "https://i.ibb.co/bXt7vLL/Sprite-0003.png",
+    image: `${process.env.PUBLIC_URL}/assets/rabbit_hole_main.png`,
   },
   {
     name: "Nicolabs",
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     name: "Plantae",
-    image: "https://i.ibb.co/PY2c9wq/plantae-login.png",
+    image: `${process.env.PUBLIC_URL}/assets/plantae/plantae_main.png`,
   },
 ];
 
