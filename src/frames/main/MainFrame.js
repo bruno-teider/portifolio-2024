@@ -1,13 +1,12 @@
 import React from "react";
 import "./MainFrame.css";
-import { useEffect } from "react";
 
 const MainFrame = ({ getFrameId }) => {
   return (
     <div className="frame">
       {/* The main paage */}
       <div className="top-container">
-        <p className="top-text">Web developer - Programador - Fotógrafo</p>
+        <p className="top-text">Front End Developer - Fotógrafo</p>
         <hr />
         <div className="my-name">Bruno Teider</div>
       </div>
